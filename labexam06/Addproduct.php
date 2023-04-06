@@ -58,7 +58,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </td>
           </tr>
 
-          
+          <tr>
+
+          <td><br><input type="checkbox" id="display_status" name="display_status" value="yes" ><label for="display_status">Display</label></td>
+          </tr>
+
           <tr>
           <td><br></td>
           <td> <br><input type="submit" name="create" value="save">
